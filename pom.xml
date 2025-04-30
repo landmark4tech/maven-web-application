@@ -102,13 +102,13 @@
       <snapshotRepository>
         <id>nexus</id>
         <name>Landmark Technologies Snapshot Nexus Repository </name>
-        <ur>http://98.81.159.237:8081/repository/tesla-snapshots/</url>
+        <url>http://98.81.159.237:8081/repository/tesla-snapshots/</url>
       </snapshotRepository>
       
   </distributionManagement>
 	
 	<build>
-		<finalName>tesla.war</finalName>
+		<finalName>tesla</finalName>
 		
 		<plugins>
 			<plugin>
