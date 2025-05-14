@@ -6,9 +6,9 @@
 	<artifactId>maven-web-app</artifactId>
 	<packaging>war</packaging>
 	
-	<version>0.0.2</version> 
+	<version>0.0.2-SNAPSHOT</version> 
 	
-	<name>maven-web-app</name>
+	<name>maven-web-application</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -132,7 +132,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/maven-web-app</contextPath>
+						<contextPath>/maven-web-application</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -145,7 +145,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>maven-web-app</wtpContextName>
+					<wtpContextName>maven-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
