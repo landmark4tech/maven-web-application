@@ -112,7 +112,7 @@
   </distributionManagement>
 	
 	<build>
-		<finalName>tesla-web-app</finalName>
+		<finalName>tesla</finalName>
 		
 		<plugins>
 			<plugin>
@@ -154,3 +154,4 @@
 	
 	
 </project>
+
